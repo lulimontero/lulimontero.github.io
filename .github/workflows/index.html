@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es"> <!--poner en español-->
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Montero Lucía - CV</title> <!--titulo que tiene en la pestañta del navegador-->
+    <link rel="icon" href="cv (2).png"> <!--icono que tiene en la pestañta del navegador-->
+    <link rel="stylesheet" type="text/css" href="style.css" > <!--esto es para asociarla a la pestaña de css-->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+   <script src="https://kit.fontawesome.com/602fc0099a.js" crossorigin="anonymous"></script>
+   
+</head>
+
+<body>
+    
+    <!--que cuando se haga click sobre nuestro elmento cuyo id es boton haga algo -->
+    <!--<p id="demo">Estamos aprendiendo JS</p>-->
+    <!--e<script src="function.js"></script> esto tiene que ir al final dps de lo anterior -->
+    <!--- <a href="index.html" download="Montero CV.pdf">Download CV</a> -->
+
+<!-- Barra de navegacion con contenedor interno -->
+<nav class="navbar navbar-expand-lg navbar-fixed-top navbar-dark" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Curriculum Vitae</a>
+        </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" 
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+      aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>   
+              
+               <!-- <li class="nav-item dropdown">
+                <a href="#" class=" nav-link dropdown-toggle" id="navbarDropDownMenuLink" role="button" data-mbd-toggle="dropdown" aria-expanded="false">Home (current) </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropDownMenuLink">
+                    <li><a class="dropdown-item" href="#">Contact</a></li>
+                    <li><a class="dropdown-item" href="#">Languages</a></li>
+                    <li><a class="dropdown-item" href="#">Abilities</a></li>
+                    <li><a class="dropdown-item" href="#">Education</a></li>
+                    <li><a class="dropdown-item" href="#">Work Experience</a></li>
+                </ul>
+              </li>-->
+            
+              <!-- 
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" 
+                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        -->
+    </div>
+  </nav>
+
+
+
+<!-- Bootstrap Static Header -->
+<div style="background: url('cascoblanco.png')" class="jumbotron bg-cover text-white" no-repeat>
+    <div class="container py-5 text-center">
+        
+        <h1 class="display-4 font-weight-bold">Lucía Antonella Montero</h1>
+        <p class="font-italic mb-0">Industrial Engineering Student</p>
+        <!-- <p class="font-italic">Snippe by
+            <a href="https://bootstrapious.com" class="text-white">
+                <u>Bootstrapious</u>
+            </a>
+        </p>
+        <a href="#" role="button" class="btn btn-primary px-5">See All Features</a> -->
+    </div>
+</div>
+
+<div class="container-fluid text-center">  <!-- con el fluid el contenido ocupa todo el ancho disponible--> 
+    <div class="row"> <!-- row-cols-2 dice cuantos elementos tiene que haber en una fila (en este caso 2 elementos o 2 columnas x fila)-->
+      <div class="col-6"> <!-- 12 es el tamaño total, como quereos 2 columnas usamos 2 columnas de tamaño 6--> 
+                    <!--<h2 class="h3 font-weight-bold">Contact</h2>
+                    <p style="height: 3%;"><a href="tel:">+54 9 3415799934</a></p>
+                    <p style="height: 3%;"><a style="height: 3%;" href=»[email protected]»>luciamonterus@hotmail.com</a></p>
+                    <p style="height: 3%;">Rosario, Santa Fe, Argentina</p>
+                    <p style="height: 3%;">23 years old</p>
+                    <p style="height: 3%;"><a href="https://www.linkedin.com/in/lucia-montero/">Linkedin: lucia-montero</a></p>
+                    <p style="height: 3%;"><a class="font-italic github" href="https://github.com/lulimontero">Github: lulimontero</a> </p>
+                    --> 
+                    
+                    <!--
+                    <a class="font-italic text-mutedtel" href="tel:"> +54 9 3415799934</a>
+                    <a class="font-italic text-mutedemail"  href=»[email protected]»>luciamonterus@hotmail.com</a>
+                    <p class="font-italic text-muted"> Rosario, Santa Fe, Argentina</p>
+                    <p class="font-italic text-muted"> 23 years old</p>
+                    <a class="font-italic text-mutedlinkedin" href="https://www.linkedin.com/in/lucia-montero/">Linkedin: lucia-montero</a>
+                    <a class="font-italic text-mutedgithub" href="https://github.com/lulimontero">Github: lulimontero</a> --> 
+
+                   
+                        <h2 class="h3 font-weight-bold">Contact</h2>
+                        <address>
+                            <a class="font-italic" href="tel:">+54 9 3415799934</a><br>
+                            <a href="mailto:luciamonterus@hotmail.com">luciamonterus@hotmail.com</a><br>
+                            Rosario, Santa Fe, Argentina<br>
+                            23 years old<br>
+                            <a href="https://www.linkedin.com/in/lucia-montero/">Linkedin: lucia-montero</a><br>
+                            <a href="https://github.com/lulimontero">Github: lulimontero</a>
+                          </address>
+        </div>
+        <div class="col-6">
+            <h2 class="h3 font-weight-bold">Languages</h2>
+            <li class="lileft">Spanish: First language</li>
+            <li class="lileft">English: Advanced FCE level C1</li>
+            <li class="lileft">Italian: Intermediate (6 years studying it)</li>
+            <li class="lileft">French, Portuguese and German: Basic</li>
+        </div>
+    </div>
+
+      <!-- 
+    <div class="row"> 
+        <div class="col-6">
+                <h2 class="h3 font-weight-bold">Abilities</h2>
+                <li class="lileft">Excel: Advanced</li>
+                <li class="lileft">Microsoft Office: Advanced</li>
+                <li class="lileft">Google Workspace: Advanced</li>
+                <li class="lileft">SQL: Advanced</li>
+                <li class="lileft">PowerBi: Advanced</li>
+                <li class="lileft">HTML: Begginer</li>
+                <li class="lileft">CSS: Begginer</li>
+                <li class="lileft">.NET: Begginer</li>
+                <li class="lileft">Research Work: Publication of Physics own Research Work at the 104th Annual Meeting of Physics Argentina (2019)</li>                
+                <li class="lileft">Innovation Award: First place in a national contest of innovation (Innovar, 2021)</li>
+        </div>
+-->
+    
+ <!--  ACÁ VEÍAMOS LOS ITEMS COMO UNA LISTA
+    <div class="row"> 
+        <div class="col-6">
+            <h2 class="h3 font-weight-bold">Abilities</h2>
+            <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fa-sharp fa-solid fa-file-excel"></i></span>Excel: Advanced
+                <li><span class="fa-li"><i class="fa-brands fa-microsoft"></i></span>Microsoft Office: Advanced
+                <li><span class="fa-li"><i class="fa-brands fa-google"></i></span>Google Workspace: Advanced
+                <li><span class="fa-li"><i class="fa-solid fa-database"></i></span>SQL: Advanced
+                <li><span class="fa-li"><i class="fa-solid fa-chart-line"></i></span>PowerBi: Advanced 
+                <li><span class="fa-li"><i class="fa-solid fa-chart-simple"></i></span>Tableau: Advanced
+                <li><span class="fa-li"><i class="fa-brands fa-html5"></i></span>HTML: Begginer
+                <li><span class="fa-li"><i class="fa-brands fa-css3-alt"></i></span>CSS: Begginer 
+                <li><span class="fa-li"><i class="fa-regular fa-file-code"></i></span>.NET: Begginer</li>  -->
+        <!--     </ul>  ul si es lista desordenada, sino ol-->
+        <!--    </div>-->
+    
+        <div class="row"> 
+            <div class="col-6">
+                <h2 class="h3 font-weight-bold">Education</h2>
+                <li class="lileft">National University of Rosario
+                   (Exact Sciences, Engineering and Surveying School). Title: Industrial Engineering. 95% completed (in course).</li>
+               <li class="lileft">High School finished (2012 - 2016) in Instituto Politécnico Superior (technical school of National University of Rosario).</li>
+               <li class="lileft">National University of Rosario
+                   (Economic Sciences and Statistics School). Title: Bachelor of Statistics (in course).</li>
+            </div>
+
+           
+
+
+        <div class="col-6">
+            <h2 class="h3 font-weight-bold">Work Experience</h2>
+            <li class="lileft">Demmand Planning Analyst - Mercado Libre - 2022</li>
+            <li class="lileft">Business Intelligence & Analytics Analyst- Inteligencia Analítica - 2021</li>
+            <li class="lileft">Material Handling & Production Control Trainee- General Motors - 2021</li>
+            <li class="lileft">Logistics Trainee - Ternium - 2021</li>
+            <li class="lileft">Digital Transformation Analyst - Comat SRL - 2020</li>
+            <li class="lileft">Accenture Consulting Academy - Accenture - 2020</li>
+            <li class="lileft">Field Hockey Coach - Jockey Club of Rosario - 2015 to 2017</li>
+       </div>
+    </div>
+
+    
+    <div class="row"> 
+        <div class="col">
+            <h2>Abilities</h2>
+            <p style="height: 3%;"><i class="fa-sharp fa-solid fa-file-excel"></i></span>  Excel and Spreadsheets: Advanced</p>  <!-- el p es para que aparezca uno abajo de otro-->
+            <p style="height: 3%;"><i class="fa-brands fa-microsoft"></i></span>  Microsoft Office: Advanced</p>
+            <p style="height: 3%;"><i class="fa-brands fa-google"></i></span>  Google Workspace: Advanced</p>
+            <p style="height: 3%;"><i class="fa-solid fa-database"></i></span>  SQL: Advanced</p>
+            <p style="height: 3%;"><i class="fa-solid fa-chart-line"></i></span>  PowerBi: Advanced </p>
+            <p style="height: 3%;"><i class="fa-solid fa-chart-simple"></i></span>  Tableau: Advanced</p>
+            <p style="height: 3%;"><i class="fa-brands fa-html5"></i></span>  HTML: Begginer</p>
+            <p style="height: 3%;"><i class="fa-brands fa-css3-alt"></i></span>  CSS: Begginer</p>
+            <p style="height: 3%;"><i class="fa-regular fa-file-code"></i></span>  .NET: Begginer</li></p>
+        </div>
+    </div>
+
+   
+   
+     <!-- 
+    <div class="row"> 
+        <div class="col">
+            <h2 class="h3 font-weight-bold">Work Experience</h2>
+            <ol class="fa-ul">
+                <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>Demmand Planning Analyst - Mercado Libre - 2022</li>
+                <li><span class="fa-li"><i class="fa-solid fa-check-square"></i></span>be used to</li>
+                <li><span class="fa-li"><i class="fa-solid fa-spinner fa-pulse"></i></span>replace bullets</li>
+                <li><span class="fa-li"><i class="fa-regular fa-square"></i></span>in lists</li>
+            </ol>
+        </div>
+    </div>
+-->
+
+<!--<p id="demo">Estamos aprendiendo JS</p>-->
+<button type="button" id="boton_ocultar">Do not show Contact Form</button>
+<button type="button" id="boton_show">Show Contact Form Again</button>
+    <script src="function.js"></script> <!--esto tiene que ir al final dps de lo anterior -->
+
+<div class="row"> 
+    <div class="col">
+<section class="contacto" id="contacto">
+    <h2>Contact Me</h2>
+    <div class="formulario-contacto-contenedor">
+      <div class="formulario-contacto">
+        <form action="https://formspree.io/f/moqzwazz" method="POST">
+          <div class="control-formulario">
+            <label for="name">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="sender-name"
+              placeholder="Leave your name"
+              class="input-field"
+              required
+            />
+          </div>
+          <div class="control-formulario">
+            <label for="email">E-mail</label>
+            <input
+              type="email"
+              id="email"
+              name="sender-email"
+              placeholder="Leave your e-mail"
+              class="input-field"
+              required
+            />
+          </div>
+          <div class="control-formulario">
+            <label for="mensaje">Message</label>
+            <textarea
+              id="Leave your message"
+              cols="60"
+              rows="10"
+              placeholder="Leave your message"
+              name="mensaje"
+              class="input-field"
+              required
+            ></textarea>
+          </div>
+          <input
+            type="submit"
+            value="Send"
+            id="submit-btn"
+            class="submit-btn"
+          />
+        </form>
+      </div>
+    </div>
+  </section>
+</div>
+</div>
+</div>
+
+</div>
+
+<!-- For Demo Purpose -->
+<!--<div class="container py-5">
+    <h2 class="h3 font-weight-bold">Some demo content</h2>
+    <div class="row">
+        <div class="col-lg-10 mb-4">
+            <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+            <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor.</p>
+        </div>
+        <div class="col-lg-8">
+            <p class="font-italic text-muted">Lorem ipsum dolor sit amet, consectetur <strong class="font-weight-bold text-dark">adipisicing elit, sed </strong>do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in <strong class="font-weight-bold text-dark">reprehenderit in voluptate </strong>velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+</div>
+-->
+</body>
+</html>
