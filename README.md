@@ -1,3 +1,5 @@
-# lulimontero.github.io
+# WEB PAGE WITH CV - lulimontero.github.io
 
-Si desean visitar la página es https://lulimontero.github.io/
+Just in case u want to visit the site: https://lulimontero.github.io/
+HTML
+CSS
